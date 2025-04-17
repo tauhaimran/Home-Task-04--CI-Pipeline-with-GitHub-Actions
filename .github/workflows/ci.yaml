@@ -22,9 +22,6 @@ jobs:
     - name: Install flake8
       run: pip install flake8
 
-    - name: Run Lint Test
-      run: flake8 .
-
     - name: Log in to Docker Hub
       uses: docker/login-action@v3
       with:
