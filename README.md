@@ -61,7 +61,7 @@ Make sure the following **repository secrets** are set in GitHub:
 ### Successful runs of workflows
 
 ![Success1](docs/successful_workflow_pt1.png)
-![Success2](docs/successful_workflow_pt1.png)
+![Success2](docs/successful_workflow_pt2.png)
 
 ---
 
