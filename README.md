@@ -1,10 +1,3 @@
-No worries bro 😎 here’s a slightly cleaner and simpler version of the `README.md` that’s **perfect for submission** — focused, professional, but still has all the tech stuff.
-
----
-
-### 📄 `README.md`
-
-```markdown
 # 🛠️ Home Task 04 – CI Pipeline with GitHub Actions
 
 This repository contains a basic **CI pipeline implementation** for a Python application using **GitHub Actions**.
