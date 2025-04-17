@@ -1,0 +1,4 @@
+# requirements.txt
+
+# Add this only if you're using flake8 in your workflow
+flake8==6.1.0
