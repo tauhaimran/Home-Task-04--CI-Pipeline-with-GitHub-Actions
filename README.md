@@ -25,9 +25,13 @@ Home-Task-04--CI-Pipeline-with-GitHub-Actions/
 ├── .github/
 │   └── workflows/
 │       └── ci.yaml           # CI workflow definition
-├── Screenshots/
-│   ├── lint-success.png
-│   └── docker-success.png
+├── docs/
+│   └── screenshots/
+│     ├── running_workflow_pt1.png
+│     ├── running_workflow_pt2.png
+│     ├── running_workflow_pt3.png
+│     ├── successful_workflow_pt1.png
+│     └── successful_workflow_pt1.png
 └── README.md
 ```
 
@@ -48,13 +52,16 @@ Make sure the following **repository secrets** are set in GitHub:
 
 ## 🖼️ CI Success Screenshots
 
-### ✅ Lint Success
+### Attempts at running workflows
 
-![Lint Success](./Screenshots/lint-success.png)
+![running](.docs/screenshots/runnning_workflow_pt1.png)
+![running](.docs/screenshots/runnning_workflow_pt2.png)
+![running](.docs/screenshots/runnning_workflow_pt3.png)
 
-### 🐳 Docker Image Build & Push
+### Successful runs of workflows
 
-![Docker Push Success](./Screenshots/docker-success.png)
+![Success](.docs/screenshots/successful_workflow_pt1.png)
+![Success](.docs/screenshots/successful_workflow_pt1.png)
 
 ---
 
