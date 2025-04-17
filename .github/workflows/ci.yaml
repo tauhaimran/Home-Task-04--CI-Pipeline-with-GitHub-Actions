@@ -2,12 +2,12 @@ name: CI Pipeline
 
 on:
   push:
-    branches:
-      - main
+    branches: [main]
   pull_request:
+    branches: [main]
 
 jobs:
-  build:
+  build-and-deploy:
     runs-on: ubuntu-latest
 
     steps:
@@ -19,8 +19,13 @@ jobs:
       with:
         python-version: '3.10'
 
-    - name: Install flake8
-      run: pip install flake8
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install flake8
+
+    - name: Lint code
+      run: flake8 .
 
     - name: Log in to Docker Hub
       uses: docker/login-action@v3
@@ -29,7 +34,7 @@ jobs:
         password: ${{ secrets.DOCKER_PASSWORD }}
 
     - name: Build Docker image
-      run: docker build -t ${{ secrets.DOCKER_USERNAME }}/python-app:latest .
+      run: docker build -t ${{ secrets.DOCKER_USERNAME }}/home-task-04:latest .
 
     - name: Push Docker image
-      run: docker push ${{ secrets.DOCKER_USERNAME }}/python-app:latest
+      run: docker push ${{ secrets.DOCKER_USERNAME }}/home-task-04:latest
