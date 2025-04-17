@@ -54,14 +54,14 @@ Make sure the following **repository secrets** are set in GitHub:
 
 ### Attempts at running workflows
 
-![running](.docs/screenshots/runnning_workflow_pt1.png)
-![running](.docs/screenshots/runnning_workflow_pt2.png)
-![running](.docs/screenshots/runnning_workflow_pt3.png)
+![running](.docs/runnning_workflow_pt1.png)
+![running](.docs/runnning_workflow_pt2.png)
+![running](.docs/runnning_workflow_pt3.png)
 
 ### Successful runs of workflows
 
-![Success](.docs/screenshots/successful_workflow_pt1.png)
-![Success](.docs/screenshots/successful_workflow_pt1.png)
+![Success](.docs/successful_workflow_pt1.png)
+![Success](.docs/successful_workflow_pt1.png)
 
 ---
 
